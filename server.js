@@ -25,7 +25,7 @@ steem.api.getState('@jeaimetu',function(err, result){
 });
 
 */
-
+/*
 function writingReply(child_permlink){
 	var private_posting_wif = process.env.pass;
 	var parent_author = 'jeaimetu';
@@ -53,7 +53,7 @@ steem.api.getContentReplies('jeaimetu', '6c1klq-stereotype', function(err, resul
 			}
 		});
 });
-
+*/
 /* data store test 
 store.set('a','test string');
 console.log(store.get('a'));
@@ -85,7 +85,7 @@ steem.api.getContent('jeaimetu','2-happenchange-investing-chapter-2',function(er
 });
 */
 
-/*
+
 console.log('getActiveVotes test');
 var res;
 var res_formatted = '';;
@@ -104,7 +104,7 @@ steem.api.getActiveVotes('jeaimetu',pLink, function(err, result) {
 	
 });
 
-*/
+
 /* this get all replies, so does not work for me */
 /*
 console.log('reply retrieve test');
